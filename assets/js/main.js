@@ -32,7 +32,7 @@ for (i = 1; i <= 100; i++) {
     if ( ( i % 3 == 0) && ( i % 5 == 0) ){
         objectBox = "FizzBuzz"
         markupObject = `
-        <div id="box" class=" p-2 d-flex square bg_red m-2">
+        <div id="box" class=" p-2 d-flex square bg_red m-2 fw-bold">
         ${objectBox}
         </div>`
         containerElement.insertAdjacentHTML ('beforeend' , markupObject )
@@ -41,7 +41,7 @@ for (i = 1; i <= 100; i++) {
     } else if (i % 3 == 0){
         objectBox = "Fizz"
         markupObject = `
-        <div id="box" class=" p-2 d-flex square bg_green m-2">
+        <div id="box" class=" p-2 d-flex square bg_green m-2 fw-bold">
         ${objectBox}
         </div>`
         containerElement.insertAdjacentHTML ('beforeend' , markupObject )
@@ -50,7 +50,7 @@ for (i = 1; i <= 100; i++) {
     } else if ( i % 5 == 0){
         objectBox = "Buzz"
         markupObject = `
-        <div id="box" class=" p-2 d-flex square bg_yellow m-2">
+        <div id="box" class=" p-2 d-flex square bg_yellow m-2 fw-bold">
         ${objectBox}
         </div>`
         containerElement.insertAdjacentHTML ('beforeend' , markupObject )
@@ -59,7 +59,7 @@ for (i = 1; i <= 100; i++) {
         
         objectBox = i
         markupObject = `
-        <div id="box" class=" p-2 d-flex square bg_blue m-2">
+        <div id="box" class=" p-2 d-flex square bg_blue m-2 fw-bold fs-5">
         ${objectBox}
         </div>`
         containerElement.insertAdjacentHTML ('beforeend' , markupObject )
